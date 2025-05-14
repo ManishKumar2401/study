@@ -88,7 +88,7 @@
 	position: relative;
 	opacity:0.70;
 	color:var(--white-color);
-	font-size:var(--font-18);
+	/* font-size:var(--font-18); */
 	-webkit-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
@@ -199,6 +199,13 @@
 
 .main-header .header-lower .auto-container{
 	max-width:1780px;
+}
+
+.main-header .header-lower .nav-outer .outer-box .social-box{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .main-header .main-box{
@@ -358,7 +365,7 @@
 	letter-spacing:0px;
 	font-weight:400;
 	padding:41px 0px; 
-	font-size:var(--font-20);
+	font: size 14px;;
 	color:var(--color-three);
 	text-transform: capitalize;
 	font-family: var(--aelpa-kumbh-font);
