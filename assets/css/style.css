@@ -691,8 +691,8 @@ body{
 	right:0px;
 	bottom:0px;
 	z-index:1;
-	background:url(../images/main-slider/gradient-layer-2.png);
-	background-size:cover;
+	background: linear-gradient(180deg, rgb(0 0 0 / 78%) 4%, rgb(0 0 0 / 0%) 100%);
+	/* background-size:cover; */
 }
 
 .main-slider-three .shape-one{
@@ -4978,6 +4978,17 @@ body{
 
 .team-block h4 a:hover{
 	color:var(--main-color);
+}
+
+.social-box{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.social-box li{
+	padding: 5px 10px;
+	color: white;
 }
 
 .team-block .social-box{

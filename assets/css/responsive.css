@@ -15,18 +15,9 @@
 @media only screen and (max-width: 1700px){
 	
 	.main-header .main-menu{
-		margin-left:var(--margin-left-80);
+		/* margin-left:var(--margin-left-80); */
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+		
 	.header-style-six .phone-box-two{
 		display:none;
 	}
