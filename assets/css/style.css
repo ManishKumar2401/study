@@ -2741,9 +2741,9 @@ body{
 	display:block;
 	width:100%;
 	line-height:28px;
-	height:70px;
+	height:50px;
 	font-size:var(--font-16);
-	padding:10px 25px;
+	padding:5px 25px;
 	color:var(--color-three);
 	border-radius:3px;
 	transition:all 500ms ease;
@@ -2761,7 +2761,7 @@ body{
 }
 
 .default-form textarea{
-	height:180px;
+	height:120px;
 	resize:none;
 	padding-top:var(--padding-top-15);
 }
@@ -2794,7 +2794,6 @@ body{
 .default-form .form-group label{
 	position:relative;
 	font-weight:400;
-	opacity:0.50;
 	display:block;
 	color:var(--font-16);
 	color:var(--white-color);
@@ -2809,7 +2808,6 @@ body{
 	color:var(--white-color);
 	background:none;
 	border:2px solid var(--white-color);
-	background-color:var(--color-thirtytwo);
 }
 
 .default-form.style-two .form-group textarea::-webkit-input-placeholder,
@@ -5038,6 +5036,14 @@ body{
 	background-size:cover;
 }
 
+.contact-section .left-column *{
+	color: white;
+}
+
+.contact-section .left-column h3{
+	font-size: 3rem;
+}
+
 .contact-section .image-column{
 	position:relative;
 	margin-bottom:var(--margin-bottom-30);
@@ -5101,11 +5107,15 @@ body{
 	position:relative;
 }
 
+.contact-section .form-column .sec-title h4{
+	color: var(--white-color);
+}
+
 .contact-section .form-column .inner-column{
 	position:relative;
 	padding:60px 50px 50px;
 	margin-right:var(--margin-right-45);
-	background-color:var(--color-thirtytwo);
+	background-color:white;
 }
 
 /*** 
@@ -5489,8 +5499,7 @@ body{
 	position:relative;
 	border-radius:8px;
 	padding:55px 30px 30px;
-	background-color:var(--white-color);
-	box-shadow:0px 0px 18px rgba(0,0,0,0.07);
+	box-shadow:0px 0px 18px var(--white-color);
 }
 
 .testimonial-block-three .text{

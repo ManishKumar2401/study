@@ -132,7 +132,7 @@
   --color-twelve: rgb(253,245,241);
   
   /* #fdf4ed in decimal RGB */
-  --color-thirteen: rgb(253,244,237);
+  --color-thirteen: rgb(243 243 243);
   
   /* #f6f6f6 in decimal RGB */
   --color-fourteen: rgb(246,246,246);
@@ -1552,7 +1552,7 @@ img{
 
 .sec-title{
 	position:relative;
-	margin-bottom:var(--margin-bottom-45);
+	margin-bottom:var(--margin-bottom-25);
 }
 
 .sec-title .title{
@@ -1561,7 +1561,7 @@ img{
 	color:var(--main-color);
 	font-size:var(--font-16);
 	font-family: var(--aelpa-kumbh-font);
-	margin-bottom:var(--margin-bottom-20);
+	margin-bottom:var(--margin-bottom-15);
 }
 
 .sec-title .text{
