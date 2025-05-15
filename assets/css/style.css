@@ -762,7 +762,7 @@ body{
 	
 	line-height:90px;
 	font-size:var(--font-85);
-	color:var(--white-color);
+	color:white;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 100ms ease;
 	-ms-transition: all 1000ms ease;
@@ -802,7 +802,7 @@ body{
 	transform: translateY(100px);
 	opacity: 0;
 	
-	color:var(--white-color);
+	color:white;
 	font-size:var(--font-20);
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 100ms ease;
@@ -810,6 +810,15 @@ body{
 	-o-transition: all 1000ms ease;
 	transition: all 1000ms ease;
 	margin-bottom:var(--margin-bottom-55);
+}
+
+.main-slider-three .btn-style-two{
+	background-color: white;
+}
+
+.main-slider-three .btn-style-two:hover{
+	background-color: var(--white-color);
+	color: white;
 }
 
 .main-slider-three .active .text{

@@ -1191,7 +1191,7 @@ img{
 	transform: translateX(-50%);
 	border-radius: 50%;
 	z-index: 1;
-	background: var(--main-color);
+	background: var(--white-color);
 }
 
 .btn-style-two i{
