@@ -728,12 +728,9 @@ body{
 .main-slider-three .title{
 	position:relative;
 	font-weight: 400;
-	
 	transform: translateY(100px);
 	opacity: 0;
-	
 	line-height:24px;
-	color:var(--main-color);
 	font-size:var(--font-24);
 	margin-bottom: var(--margin-bottom-30);
 	-webkit-transition: all 1000ms ease;
@@ -2826,7 +2823,8 @@ body{
 
 .default-form.style-two .form-group .theme-btn{
 	margin-top:var(--margin-top-10);
-	background-color:var(--main-color);
+	background-color:var(--white-color);
+	color: white;
 }
 
 
@@ -3434,7 +3432,8 @@ body{
 }
 
 .cause-block-two .category.color-two{
-	background-color:var(--color-nine);
+	background-color:var(--white-color);
+	color: white;
 }
 
 .cause-block-two .category.color-three{
@@ -4907,7 +4906,7 @@ body{
 .team-section{
 	position:relative;
 	padding:100px 0px 110px;
-	background-color:var(--color-thirtyone);
+	background-color:var(--color-light-bg);
 }
 
 .team-section .pattern-layer{
@@ -4929,7 +4928,7 @@ body{
 	position:relative;
 	border-radius:4px;
 	overflow:hidden;
-	background-color:var(--white-color);
+	background-color:white;
 }
 
 .team-block .inner-box .image{
@@ -10840,7 +10839,7 @@ body{
 .rtl .default-form input[type="text"], 
 .rtl .default-form input[type="email"], 
 .rtl .default-form input[type="password"], 
-.rtl .default-form select, .default-form textarea,
+.rtl .default-form select,
 .rtl .main-footer .footer-column,
 .rtl .main-slider-two .content-column .inner-column,
 .rtl .about-section-two .content-column .inner-column,
