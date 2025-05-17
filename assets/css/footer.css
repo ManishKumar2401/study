@@ -146,13 +146,13 @@
 	line-height:30px;
 	z-index:1;
 	font-size:var(--font-17);
-	color:var(--white-color);
+	color:white;
 	margin-bottom:var(--margin-bottom-15);
 }
 
 .main-footer .address-widget li a{
 	position:relative;
-	color:var(--white-color);
+	color:white;
 	transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
     -ms-transition: all 300ms ease;
@@ -164,7 +164,7 @@
 }
 
 .main-footer .address-widget li a:hover{
-	color:var(--main-color);
+	/* color:var(--main-color); */
 }
 
 .main-footer .newsletter-widget .text{
@@ -347,15 +347,15 @@
 }
 
 .main-footer.style-two .address-widget li:last-child a{
-	color:var(--main-color);
+	color:white;
 	padding-left:var(--padding-left-55);
 }
 
 .main-footer.style-two .address-widget li:last-child a:before{
 	position:absolute;
 	content:'';
-	left:0px;
-	top:-7px;
+	left:-11px;
+	top:-9px;
 	z-index:-1;
 	width:44px;
 	height:44px;
@@ -364,7 +364,7 @@
 	text-align:center;
 	display:inline-block;
 	color:var(--white-color);
-	background-color:var(--main-color);
+	background-color:var(--white-color);
 }
 
 /* Style Three */
@@ -420,7 +420,7 @@
 }
 
 .main-footer .address-widget.style-two li:last-child .icon{
-	left:13px;
+	/* left:13px; */
 }
 
 

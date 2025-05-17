@@ -267,7 +267,7 @@
 	}
 	
 	.main-slider-three h1{
-		font-size:var(--font-60);
+		font-size:var(--font-50);
 		line-height:64px;
 	}
 	
@@ -1663,7 +1663,7 @@
 	}
 	
 	.main-slider-three h1 {
-		font-size: var(--font-44);
+		font-size: var(--font-34);
 		line-height: 50px;
 	}
 	
@@ -2070,7 +2070,7 @@
 	}
 	
 	.main-slider-three h1 {
-		font-size: var(--font-36);
+		font-size: var(--font-26);
 		line-height: 44px;
 	}
 	
